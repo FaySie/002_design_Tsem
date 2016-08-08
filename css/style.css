@@ -20,6 +20,10 @@ h1 {
     font-size: 26px;
 }
 
+h3 {
+    font-size: 20px;
+}
+
 h4 {
     font-size: 16px;
 }
@@ -84,7 +88,7 @@ h5 {
 .article {
     position: absolute;
     bottom: 50px;
-    left: 50px;
+    left: 100px;
 }
 
 .article p {
@@ -94,6 +98,59 @@ h5 {
 .article p:last-child {
     font-weight: bolder;
     font-size: 24px;
+}
+
+.content {
+    position: relative;
+}
+
+.links {
+    background-color: #2b9be1;
+    width: 379px;
+    height: 379px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 -1px;
+}
+
+.links h3 {
+    color: #fff;
+}
+
+.square {
+    width: 379px;
+}
+
+.rectangle {
+    width: 760px;
+    background-color: #fff;
+}
+
+.square,
+.rectangle {
+    position: relative;
+    height: 379px;
+    display: inline-block;
+    margin: 0 -1px;
+    vertical-align: top;
+}
+
+.img-title {
+    color: #fff;
+    width: auto;
+    position: absolute;
+    top: 155px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0;
+    text-shadow: 2px 2px 1px #555;
+}
+
+.rectangle h3 {
+    color: #064d86;
+    text-shadow: none;
 }
 /*-----------------------------------------------
 *    footer
