@@ -6,6 +6,7 @@
 *    gray         : #ddd
 *    blue(light)  : #2b9be1
 *    blue(dark)   : #064d86
+*    black        : #000
 *
 **************************************************/
 
@@ -20,8 +21,12 @@ h1 {
     font-size: 26px;
 }
 
+h2 {
+    font-size: 24px;
+}
+
 h3 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h4 {
@@ -64,6 +69,8 @@ h5 {
     right: 0;
     left: 0;
     background-color: #064d86;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
 }
 
 #sidebar a {
@@ -113,8 +120,22 @@ h5 {
     margin: 0 -1px;
 }
 
-.links h3 {
+.links h1 {
     color: #fff;
+    text-align: center;
+    margin: 165px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #fff;
+}
+
+.square,
+.rectangle {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 379px;
+    margin: 0 -1px;
+    background-color: #064d86;
 }
 
 .square {
@@ -126,20 +147,16 @@ h5 {
     background-color: #fff;
 }
 
-.square,
-.rectangle {
-    position: relative;
-    height: 379px;
-    display: inline-block;
-    margin: 0 -1px;
-    vertical-align: top;
+.square:hover {
+    opacity: 0.9;
 }
 
 .img-title {
     color: #fff;
     width: auto;
     position: absolute;
-    top: 155px;
+    text-align: center;
+    top: 165px;
     bottom: 0;
     left: 0;
     right: 0;
@@ -155,3 +172,33 @@ h5 {
 /*-----------------------------------------------
 *    footer
 -----------------------------------------------*/
+#footer {
+    background-color: #064d86;
+}
+
+#footer .row {
+    margin: 20px auto;
+}
+
+#footer h4 {
+    font-weight: bolder;
+}
+
+#footer h4,
+#footer p {
+    color: #fff;
+    text-align: center;
+}
+
+#footer .info h4,
+#footer .info p {
+    text-align: left;
+}
+
+.info p:first-child {
+    margin-bottom: 10px;
+}
+
+.info p:last-child {
+    margin-top: 10px;
+}
