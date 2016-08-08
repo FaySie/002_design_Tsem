@@ -1,0 +1,60 @@
+/**************************************************
+*
+*    web color
+*
+*    white        : #fff
+*    gray         : #ddd
+*    blue(light)  : #2b9be1
+*    blue(dark)   : #064d86
+*
+**************************************************/
+
+/*
+GENERAL
+*/
+body {
+    background-color: #ddd;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+/*-----------------------------------------------
+*    header
+-----------------------------------------------*/
+.logo {
+    background: url(../img/logo.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+}
+
+.menu {
+    background-color: #fff;
+    height: 80px;
+}
+
+#header ul a {
+    border: 1px solid #064d86;
+    padding: 3px 10px;
+}
+
+#header a {
+    margin-top: 20px;
+}
+/*-----------------------------------------------
+*    main
+-----------------------------------------------*/
+
+
+/*-----------------------------------------------
+*    footer
+-----------------------------------------------*/
