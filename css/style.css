@@ -180,6 +180,17 @@ h5 {
     color: #064d86;
     text-shadow: none;
 }
+
+.square:hover::after {
+    content: '';
+    width: 379px;
+    height: 379px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+}
 /*-----------------------------------------------
 *    footer
 -----------------------------------------------*/
