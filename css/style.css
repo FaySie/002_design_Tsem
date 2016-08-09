@@ -16,7 +16,7 @@ GENERAL
 */
 body {
     background: #ddd url(../img/bg2.jpg) repeat-x;
-    font-family: "sourcehansans-tc", sans-serif;
+    font-family: "sourcehansans-tc", Microsoft JhengHei;
     font-weight: "200";
     background-size: 55%;
 }
