@@ -16,7 +16,8 @@ GENERAL
 */
 body {
     background: #ddd url(../img/bg2.jpg) repeat-x;
-    font-family: NotoSansHant-DemiLight, sans-serif;
+    font-family: "sourcehansans-tc", sans-serif;
+    font-weight: "400";
     background-size: 55%;
 }
 
@@ -108,7 +109,7 @@ h5 {
 .article span {
     color: #064d86;
     font-size: 3em;
-    font-weight: 500;
+    font-weight: 600;
     vertical-align: middle;
 }
 
