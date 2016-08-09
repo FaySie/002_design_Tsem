@@ -5,7 +5,8 @@
 *    white        : #fff
 *    gray(light)  : #eee
 *    gray(dark)   : #ddd
-*    blue(light)  : #2b9be1
+*    blue(light)  : #a5dee5
+*    blue(medium)  : #2b9be1
 *    blue(dark)   : #064d86
 *    black        : #000
 *
@@ -138,7 +139,6 @@ h5 {
     vertical-align: top;
     height: 379px;
     margin: 0 -1px;
-    background-color: #064d86;
 }
 
 .square {
@@ -159,11 +159,7 @@ h5 {
 }
 
 .rectangle:hover {
-    background-color: #eee;
-}
-
-.square:hover {
-    opacity: 0.9;
+    background-color: #a5dee5;
 }
 
 .img-title {
