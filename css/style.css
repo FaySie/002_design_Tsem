@@ -150,6 +150,10 @@ h5 {
     background-color: #fff;
 }
 
+.rectangle h3 {
+    margin-bottom: 20px;
+}
+
 .rectangle div {
     margin-top: 100px;
 }
