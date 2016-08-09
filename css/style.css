@@ -15,8 +15,9 @@
 GENERAL
 */
 body {
-    background-color: #ddd;
+    background: #ddd url(../img/bg2.jpg) repeat-x;
     font-family: NotoSansHant-DemiLight, sans-serif;
+    background-size: 55%;
 }
 
 h1 {
