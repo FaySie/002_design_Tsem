@@ -5,7 +5,7 @@
 *    white        : #fff
 *    gray(light)  : #eee
 *    gray(dark)   : #ddd
-*    blue(medium)  : #2b9be1
+*    blue(medium) : #4d9aca
 *    blue(dark)   : #064d86
 *    black        : #000
 *
@@ -89,7 +89,7 @@ h5 {
 *    main
 -----------------------------------------------*/
 .banner {
-    background: #fff url(../img/nokp2.jpg) right bottom no-repeat;
+    background: #fff url(../img/nokp.jpg) right bottom no-repeat;
     height: 500px;
     background-size: 70%;
     position: relative;
@@ -105,9 +105,11 @@ h5 {
     font-size: 20px;
 }
 
-.article p:last-child {
-    font-weight: bold;
-    font-size: 24px;
+.article span {
+    color: #064d86;
+    font-size: 3.5em;
+    font-weight: 500;
+    vertical-align: middle;
 }
 
 .content {
@@ -115,7 +117,7 @@ h5 {
 }
 
 .links {
-    background-color: #2b9be1;
+    background-color: #4d9aca;
     width: 379px;
     height: 379px;
     display: inline-block;
@@ -198,7 +200,7 @@ h5 {
 }
 
 #footer .row {
-    margin: 20px auto;
+    margin: 40px auto;
 }
 
 #footer h4,
