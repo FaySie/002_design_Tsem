@@ -3,7 +3,8 @@
 *    web color
 *
 *    white        : #fff
-*    gray         : #ddd
+*    gray(light)  : #eee
+*    gray(dark)   : #ddd
 *    blue(light)  : #2b9be1
 *    blue(dark)   : #064d86
 *    black        : #000
@@ -40,8 +41,8 @@ h5 {
 *    header
 -----------------------------------------------*/
 .logo {
-    background: url(../img/logo.png) no-repeat;
-    width: 40px;
+    background: url(../img/logo2.jpg) no-repeat;
+    width: 300px;
     height: 40px;
     background-size: contain;
 }
@@ -145,6 +146,14 @@ h5 {
 .rectangle {
     width: 760px;
     background-color: #fff;
+}
+
+.rectangle div {
+    margin-top: 100px;
+}
+
+.rectangle:hover {
+    background-color: #eee;
 }
 
 .square:hover {
